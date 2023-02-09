@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GT - My travel agency</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="css\2793045_christmas_icicle_snow_snow flake_xmas_icon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="fixed">
+
+            <div class="logo" style=" width: 20rem; background-color: transparent;">
+        <img src="css\travel.jpg" alt="logo">
+        <p> 
+                    Pack 'N' Go 
+        </p>
+        </div>
+
+        <nav>
+          <ul>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        </div>
+        <p> <span class="text"> Explore the world, one journey at a time ...</span></p>
+      </header>
+
+      <main>
+        <section id="destinations">
+          <h2>Popular Destinations</h2>
+          <ul style="display: flex; width: 100%; background: rgb(0, 151, 167, 0.05);">
+            <li style="margin-left: 0;">
+              <h3>Paris, France</h3>
+              <p>The city of love </p>
+              <img src="css\paris.jpg" alt="Paris">
+            </li>
+            <li>
+                <h3>Santorini, Greece</h3>
+                <p>Freedom or Death</p>
+                <img src="css\Santorini.jpg" alt="Santorini">
+            </li>
+            <li>
+                <h3>Bali, Indonesia</h3>
+                <p>Unity in Diversity</p>
+                <img src="css\Bali.jpg" alt="Bali">
+            </li>  
+            <li>
+                <h3>Dubai, UAE</h3>
+                <p>The eternal city</p>
+                <img src="css\dubai.jpg" alt="dubai">
+            </li>    
+            <li>
+              <h3>Rome, Italy</h3>
+              <p>The eternal city</p>
+              <img src="css\Rome.jpg" alt="Rome">
+            </li>
+            <li style="margin-right: 0;">
+              <h3>New York, USA</h3>
+              <p>The city that never sleeps</p>
+              <img src="css\New york.jpg" alt="New york">
+            </li>
+          </ul>
+        </section>
+
+        <div class="second">
+
+        <section id="about">
+          <h2 style="padding-top: 5rem; color: whitesmoke">About Us</h2>
+          <div style="width: 100%; background: rgb(0, 151, 167, 0.05);">
+          <p class="about" >Welcome to our travel agency! We are a team of passionate 
+            travelers and destination experts who strive to create unforgettable experiences for our clients.
+             With years of experience in the industry, we have a deep understanding of what makes a trip truly 
+            special and aim to customize each journey to your individual needs and interests. Whether you're 
+            looking for a romantic getaway, an adventure-filled excursion, or a family vacation, we are here to 
+            bring your travel dreams to life. Let us handle all the details while you sit back, relax, and enjoy the journey.
+             Contact us today to start planning your next adventure."</p>
+            </div>
+        </section>
+
+        <section id="contact">
+          <h2 style="padding-top: 6rem; color: whitesmoke;">Contact Us</h2>
+          <div style="width: 100%; background: rgb(0, 151, 167, 0.05);">
+          <form action=" " method="post" class="contact"> 
+            <div> <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="full name"> </div> <br>
+            <div> <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="your@email.input"> </div> <br>
+            <div> <label for="message" >Message:</label>
+            <textarea id="message" name="message" placeholder="Type your message here ..."></textarea> </div> <br>
+            <input type="submit" value="Send" class="submit" >
+          </form>
+        </div>
+        </section>
+
+      </div>
+      </main>
+
+      <footer>
+        <p>&copy; 2023 Travel Agency</p>
+      </footer>
+</body>
+</html>
